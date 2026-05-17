@@ -96,7 +96,7 @@ export default function LandingPage() {
         { id: "p5", brand: "Brunch", name: "Yogurt Bowl", price: "$140 MXN", rating: 5, reviewCount: "70", imageSrc: "" },
         { id: "p6", brand: "Luun Signature", name: "Breakfast Sándwich", price: "$175 MXN", rating: 5, reviewCount: "110", imageSrc: "" },
       ]}
-      title="Selección de brunch"
+      title="Why Choose Us"
       description="Una cuidada carta de especialidades que celebran los ingredientes."
     />
   </div>
