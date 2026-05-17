@@ -61,7 +61,7 @@ export default function LandingPage() {
       <MediaAbout
       useInvertedBackground={false}
       title="About Our Team"
-      description=" Hi, we create simple and professional websites for  small businesses in the USA. \n\n Our goal is to help local businesses get more clients with a clean online presence."
+      description=" Hi, we create simple and professional websites for  small businesses in the USA.  Our goal is to help local businesses get more clients with a clean online presence."
     />
   </div>
 
