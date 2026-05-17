@@ -45,12 +45,12 @@ export default function LandingPage() {
       ]}
       autoPlay={false}
       carouselItems={[
-        { id: "1", imageAlt: "Computer hardware", imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&h=600" },
-        { id: "2", imageAlt: "Modern laptop workstation", imageSrc: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800&h=600" },
-        { id: "3", imageAlt: "Coding on a monitor", imageSrc: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&h=600" },
-        { id: "4", imageAlt: "Server racks", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dm821k5J9xOiXeU3KZJGxj6Aak/tmp/person-using-a-computer-and-the-computer-1779040444815-5fb6ab3e.png" },
-        { id: "5", imageAlt: "Digital circuitry", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600&_wi=1" },
-        { id: "6", imageAlt: "Smart technology connectivity", imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&h=600" },
+        { id: "1", imageAlt: "Computer technology workspace", imageSrc: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=800&h=600" },
+        { id: "2", imageAlt: "Modern laptop and coding setup", imageSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&h=600" },
+        { id: "3", imageAlt: "Circuit board technology", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600" },
+        { id: "4", imageAlt: "Software development monitor", imageSrc: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&h=600" },
+        { id: "5", imageAlt: "Digital communication network", imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&h=600" },
+        { id: "6", imageAlt: "Advanced computing system", imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&h=600" },
       ]}
     />
   </div>
@@ -60,6 +60,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="About Our Team"
       description=" Hi, we create simple and professional websites for  small businesses in the USA.  Our goal is to help local businesses get more clients with a clean online presence."
+      imageSrc="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&h=600"
+      imageAlt="Team working with technology"
     />
   </div>
 
@@ -74,7 +76,8 @@ export default function LandingPage() {
         { id: "f3", title: "Professional Design", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
       ]}
       mediaAnimation="slide-up"
-      videoSrc="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-in-a-cup-4017-large.mp4"
+      imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&h=600"
+      imageAlt="Professional web design services"
     />
   </div>
 
@@ -84,11 +87,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sofía M.", handle: "@sofia.lifestyle", testimonial: "The website build process was seamless and incredibly professional.", rating: 5 },
-        { id: "2", name: "Carlos E.", handle: "@carlos.viajero", testimonial: "Our new online presence has significantly increased our customer reach.", rating: 5 },
-        { id: "3", name: "Lucía P.", handle: "@lucia.gastronomia", testimonial: "Every detail was carefully thought out to match our brand identity.", rating: 5 },
-        { id: "4", name: "Diego R.", handle: "@diego.foodie", testimonial: "Highly recommended for any small business looking to modernize their site.", rating: 5 },
-        { id: "5", name: "Elena T.", handle: "@elena.creativa", testimonial: "Excellent service and quick turnaround times. Simply the best.", rating: 5 },
+        { id: "1", name: "Sofía M.", handle: "@sofia.lifestyle", testimonial: "The website build process was seamless and incredibly professional.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&h=150" },
+        { id: "2", name: "Carlos E.", handle: "@carlos.viajero", testimonial: "Our new online presence has significantly increased our customer reach.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=150&h=150" },
+        { id: "3", name: "Lucía P.", handle: "@lucia.gastronomia", testimonial: "Every detail was carefully thought out to match our brand identity.", rating: 5, imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&h=150" },
       ]}
       showRating={true}
       title="What our clients say"
@@ -101,7 +102,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Made for small businesses ",        "Easy to use ",        "Fast delivery",        "One-time payment ",        "Simple and professional design "]}
+        "Made for small businesses ", "Easy to use ", "Fast delivery", "One-time payment ", "Simple and professional design "]}
       title="Why You Choose Us"
       description=""
     />
