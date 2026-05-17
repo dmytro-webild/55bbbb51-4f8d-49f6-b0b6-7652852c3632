@@ -67,7 +67,7 @@ export default function LandingPage() {
         {
           id: "5",          imageSrc: "http://img.b2bpic.net/free-photo/glass-cups-with-aromatic-wax_23-2147809206.jpg",          imageAlt: "Servicio exclusivo"},
         {
-          id: "6",          imageSrc: "http://img.b2bpic.net/free-photo/hot-coffee-bean-smoked-deep-dark-background_633478-955.jpg",          imageAlt: "Atmósfera Luun"},
+          id: "6",          imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838",          imageAlt: "Atmósfera Luun"},
       ]}
     />
   </div>
