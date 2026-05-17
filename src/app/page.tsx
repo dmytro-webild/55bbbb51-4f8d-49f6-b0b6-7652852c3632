@@ -115,7 +115,7 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "Do you support existing sites?", content: "Yes, we can help you refresh or completely rebuild your existing online presence." },
         { id: "q2", title: "How long does a build take?", content: "Typically, we deliver high-quality, professional sites within 2 to 4 weeks depending on scope." },
-        { id: "q3", title: "Is maintenance included?", content: "We offer flexible maintenance plans to keep your site running smoothly after launch." },
+        { id: "q3", title: "Is maintenance included?", content: "No we online offer the website " },
       ]}
       title="Frequently asked questions"
       description="Everything you need to know about working with our team."
