@@ -75,7 +75,7 @@ export default function LandingPage() {
       title="Our Work"
       description="3 examples of our websites."
       accordionItems={[
-        { id: "f1", title: "Barbershop Website", content: "We build fully responsive websites tailored to your unique business needs." },
+        { id: "f1", title: "Barbershop Website", content: "Modern design for a local barbershop with services, location, and contact " },
         { id: "f2", title: "Restaurant Website", content: "Optimized loading speeds and modern infrastructure for the best user experience." },
         { id: "f3", title: "Cleaning Service Website", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
       ]}
