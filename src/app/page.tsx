@@ -45,13 +45,14 @@ export default function LandingPage() {
       buttons={[
         { text: "View Our Work", href: "#features" },
       ]}
+      autoPlay={false}
       carouselItems={[
         { id: "1", imageAlt: "Computer hardware", imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&h=600" },
-        { id: "2", imageAlt: "Technology setup", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600" },
-        { id: "3", imageAlt: "Empty item 3" },
-        { id: "4", imageAlt: "Empty item 4" },
-        { id: "5", imageAlt: "Empty item 5" },
-        { id: "6", imageAlt: "Empty item 6" },
+        { id: "2", imageAlt: "Modern laptop workstation", imageSrc: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800&h=600" },
+        { id: "3", imageAlt: "Coding on a monitor", imageSrc: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&h=600" },
+        { id: "4", imageAlt: "Server racks", imageSrc: "https://images.unsplash.com/photo-1558494949-ef010bbbb317?q=80&w=800&h=600" },
+        { id: "5", imageAlt: "Digital circuitry", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600" },
+        { id: "6", imageAlt: "Smart technology connectivity", imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&h=600" },
       ]}
     />
   </div>
