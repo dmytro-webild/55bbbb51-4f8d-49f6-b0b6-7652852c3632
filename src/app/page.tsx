@@ -116,7 +116,7 @@ export default function LandingPage() {
       faqs={[
         { id: "q1", title: "How would it take to have my website ready?", content: " 1 week " },
         { id: "q2", title: "And what do I gain in having a website?", content: "Typically, we deliver high-quality, professional sites within 2 to 4 weeks depending on scope." },
-        { id: "q3", title: "Is maintenance included?", content: "No we online offer the website " },
+        { id: "q3", title: "Is maintenance included?", content: "No we only offer the website " },
       ]}
       title="Pricing "
       description="Websites starting at $300-$500"
