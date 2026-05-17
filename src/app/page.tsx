@@ -34,7 +34,7 @@ export default function LandingPage() {
         {
           name: "My Work",          id: "about"},
         {
-          name: "About Me",          id: "menu"},
+          name: "About Us",          id: "menu"},
         {
           name: "Reservar",          id: "contact"},
       ]}
