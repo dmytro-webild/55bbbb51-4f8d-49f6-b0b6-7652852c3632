@@ -51,7 +51,7 @@ export default function LandingPage() {
         { id: "2", imageAlt: "Modern laptop workstation", imageSrc: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=800&h=600" },
         { id: "3", imageAlt: "Coding on a monitor", imageSrc: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&h=600" },
         { id: "4", imageAlt: "Server racks", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dm821k5J9xOiXeU3KZJGxj6Aak/tmp/person-using-a-computer-and-the-computer-1779040444815-5fb6ab3e.png" },
-        { id: "5", imageAlt: "Digital circuitry", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600" },
+        { id: "5", imageAlt: "Digital circuitry", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600&_wi=1" },
         { id: "6", imageAlt: "Smart technology connectivity", imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&h=600" },
       ]}
     />
@@ -113,7 +113,7 @@ export default function LandingPage() {
       <FaqSplitMedia
       textboxLayout="split"
       useInvertedBackground={false}
-      imageSrc="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600"
+      imageSrc="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600&_wi=2"
       imageAlt="Tech FAQ"
       faqs={[
         { id: "q1", title: "How would it take to have my website ready?", content: " 1 week " },
