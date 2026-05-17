@@ -77,7 +77,6 @@ export default function LandingPage() {
         { id: "f2", title: "Brunch Gourmet", content: "Platos que combinan técnica clásica con productos frescos de temporada." },
         { id: "f3", title: "Diseño Estético", content: "Cada rincón es un espacio curado para creadores y momentos instagrameables." },
       ]}
-      imageAlt="Preparación de café de especialidad"
       mediaAnimation="slide-up"
       videoSrc="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-in-a-cup-4017-large.mp4"
     />
