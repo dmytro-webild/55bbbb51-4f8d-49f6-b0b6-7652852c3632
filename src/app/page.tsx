@@ -36,7 +36,7 @@ export default function LandingPage() {
         {
           name: "About Us",          id: "menu"},
         {
-          name: "Reservar",          id: "contact"},
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Simple Websites"
     />
