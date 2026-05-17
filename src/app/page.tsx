@@ -126,12 +126,21 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="contact-us-section" data-section="contact-us-section">
+      <ContactText
+      text="Call us at: +52 9999490647 or +52 9997664077"
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
+      buttons={[]}
+    />
+  </div>
+
   <div id="contact-btn-section" data-section="contact-btn-section">
       <ContactText
       text="Ready to get started?"
       background={{ variant: "plain" }}
       useInvertedBackground={false}
-      buttons={[{ text: "Contact us" }]}
+      buttons={[{ text: "Contact us", href: "#contact-us-section" }]}
     />
   </div>
 
