@@ -103,7 +103,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Tech Weekly",        "Local Innovators",        "Fast delivery",        "One-time payment ",        "Simple and professional design "]}
+        "Tech Weekly",        "Easy to use ",        "Fast delivery",        "One-time payment ",        "Simple and professional design "]}
       title="Why You Choose Us"
       description=""
     />
