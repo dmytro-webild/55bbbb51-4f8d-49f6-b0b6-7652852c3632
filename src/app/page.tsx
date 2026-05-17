@@ -113,6 +113,8 @@ export default function LandingPage() {
       <FaqSplitMedia
       textboxLayout="split"
       useInvertedBackground={false}
+      imageSrc="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600"
+      imageAlt="Tech FAQ"
       faqs={[
         { id: "q1", title: "How would it take to have my website ready?", content: " 1 week " },
         { id: "q2", title: "And what do I gain in having a website?", content: "A good website helps your business get more customers, look more professional, and receive calls or messages every day." },
@@ -129,6 +131,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Get your website "
       description="If you want a simple website for your business, contact us today."
+      imageSrc="https://images.unsplash.com/photo-1573164713714-d75e9003f443?q=80&w=800&h=600"
+      imageAlt="Contact Us Tech"
       inputs={[
         { name: "name", type: "text", placeholder: "Name", required: true },
         { name: "email", type: "email", placeholder: "Email", required: true },
