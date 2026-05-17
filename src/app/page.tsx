@@ -105,7 +105,7 @@ export default function LandingPage() {
       names={[
         "Tech Weekly",        "Local Innovators",        "Small Biz Alliance",        "Digital Growth",        "Startup News"]}
       title="Why You Choose Us"
-      description="Companies and platforms that trust our development expertise."
+      description=""
     />
   </div>
 
