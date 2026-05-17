@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from 'react';
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
@@ -13,6 +14,8 @@ import TestimonialCardThirteen from '@/components/sections/testimonial/Testimoni
 import ContactText from '@/components/sections/contact/ContactText';
 
 export default function LandingPage() {
+  const [showNumbers, setShowNumbers] = useState(false);
+
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -126,22 +129,21 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact-us-section" data-section="contact-us-section">
-      <ContactText
-      text="Call us at: +52 9999490647 or +52 9997664077"
-      background={{ variant: "plain" }}
-      useInvertedBackground={false}
-      buttons={[]}
-    />
-  </div>
-
   <div id="contact-btn-section" data-section="contact-btn-section">
       <ContactText
       text="Ready to get started?"
       background={{ variant: "plain" }}
       useInvertedBackground={false}
-      buttons={[{ text: "Contact us", href: "#contact-us-section" }]}
+      buttons={[{
+        text: "Contact us",        onClick: () => setShowNumbers(!showNumbers)
+      }]}
     />
+    {showNumbers && (
+        <div style={{ textAlign: "center", fontSize: "0.9rem", marginTop: "1rem", color: "var(--foreground)" }}>
+            <p>+52 9999490647</p>
+            <p>+52 9997664077</p>
+        </div>
+    )}
   </div>
 
   <div id="footer" data-section="footer">
