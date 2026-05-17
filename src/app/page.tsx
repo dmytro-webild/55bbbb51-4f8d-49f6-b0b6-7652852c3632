@@ -56,7 +56,8 @@ export default function LandingPage() {
       title="Simple Websites for Small Businesses
 
 "
-      description="Croissants artesanales, café de especialidad y experiencias memorables en el corazón de Paseo Montejo. Cada detalle está pensado para que disfrutes lento."
+      description="I build clean, simple website that help small businesses get more customers.
+"
       buttons={[
         {
           text: "Reservar Mesa",
