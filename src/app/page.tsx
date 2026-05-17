@@ -77,7 +77,7 @@ export default function LandingPage() {
       accordionItems={[
         { id: "f1", title: "Barbershop Website", content: "Modern design for a local barbershop with services, location, and contact " },
         { id: "f2", title: "Restaurant Website", content: "Clean layout with menu, photos, and easy contact options. " },
-        { id: "f3", title: "Cleaning Service Website", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
+        { id: "f3", title: "Cleaning Service Website", content: "Professional design focused on getting more leads and calls." },
       ]}
       mediaAnimation="slide-up"
       imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&h=600"
