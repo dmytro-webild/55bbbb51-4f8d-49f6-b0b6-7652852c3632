@@ -31,12 +31,9 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Our Work",          id: "about"},
-        {
-          name: "About Us",          id: "menu"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Our Work", id: "about" },
+        { name: "About Us", id: "menu" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Simple Websites"
     />
@@ -44,13 +41,11 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
-      background={{
-        variant: "rotated-rays-animated"}}
+      background={{ variant: "rotated-rays-animated" }}
       title="Simple Websites for Small Businesses"
       description="I build clean, simple website that help small businesses get more customers.\n"
       buttons={[
-        {
-          text: "View Our Work",          href: "#menu"},
+        { text: "View Our Work", href: "#menu" },
       ]}
       carouselItems={[
         { id: "1", imageAlt: "Atmósfera Luun" },
@@ -84,6 +79,7 @@ export default function LandingPage() {
       ]}
       imageAlt="Preparación de café de especialidad"
       mediaAnimation="slide-up"
+      videoSrc="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-in-a-cup-4017-large.mp4"
     />
   </div>
 
@@ -167,10 +163,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="LUUN"
-      leftLink={{
-        text: "Instagram",        href: "https://instagram.com"}}
-      rightLink={{
-        text: "Política de Privacidad",        href: "#"}}
+      leftLink={{ text: "Instagram", href: "https://instagram.com" }}
+      rightLink={{ text: "Política de Privacidad", href: "#" }}
     />
   </div>
       </ReactLenis>
