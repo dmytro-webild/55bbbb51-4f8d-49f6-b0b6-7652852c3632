@@ -59,7 +59,7 @@ export default function LandingPage() {
         {
           id: "1",          imageSrc: "http://img.b2bpic.net/free-photo/woman-blue-hat-sits-windowsill-cafe_8353-194.jpg",          imageAlt: "Experiencia brunch gourmet"},
         {
-          id: "2",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-cup-table_23-2148164788.jpg",          imageAlt: "Pastelería artesanal"},
+          id: "2",          imageSrc: "https://img.b2bpic.net/free-photo/female-hand-typing-keyboard-laptop_1150-15742.jpg?id=5432778",          imageAlt: "Pastelería artesanal"},
         {
           id: "3",          imageSrc: "http://img.b2bpic.net/free-photo/hand-holding-hot-coffee-cup_1150-10433.jpg",          imageAlt: "Café de especialidad"},
         {
