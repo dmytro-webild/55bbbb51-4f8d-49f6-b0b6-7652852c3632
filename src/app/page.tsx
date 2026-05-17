@@ -130,6 +130,7 @@ export default function LandingPage() {
       <ContactText
       text="Ready to get started?"
       background={{ variant: "plain" }}
+      useInvertedBackground={false}
       buttons={[{ text: "Contact us" }]}
     />
   </div>
