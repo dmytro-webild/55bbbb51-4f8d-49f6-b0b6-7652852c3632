@@ -77,7 +77,7 @@ export default function LandingPage() {
       accordionItems={[
         { id: "f1", title: "Barbershop Website", content: "Modern design for a local barbershop with services, location, and contact. " },
         { id: "f2", title: "Restaurant Website", content: "Clean layout with menu, photos, and easy contact options. " },
-        { id: "f3", title: "Cleaning Service Website", content: "Professional design focused on getting more leads and calls. [View Demo](https://cleaning-demo.example.com)" },
+        { id: "f3", title: "Cleaning Service Website", content: "Professional design focused on getting more leads and calls. " },
       ]}
       mediaAnimation="slide-up"
       imageSrc="https://img.b2bpic.net/free-photo/businessman-using-mobile-phone_107420-74340.jpg?id=8897942"
