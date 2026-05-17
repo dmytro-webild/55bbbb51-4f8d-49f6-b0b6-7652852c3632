@@ -63,7 +63,9 @@ export default function LandingPage() {
       <MediaAbout
       useInvertedBackground={false}
       title="About Our Team"
-      description="Hi, we create simple and professional websites for small businesses in the USA.                                                        My goal is to help local businesses get more clients with a clean online presence."
+      description=" Hi, we create simple and professional websites for  small businesses in the USA. 
+
+ Our goal is to help local businesses get more clients with a clean online presence."
       imageSrc="https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=6"
       imageAlt="Interior de Luun Brunch & Coffee"
     />
