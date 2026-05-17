@@ -32,7 +32,7 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "My Work",          id: "about"},
+          name: "Our Work",          id: "about"},
         {
           name: "About Us",          id: "menu"},
         {
