@@ -71,7 +71,7 @@ export default function LandingPage() {
       <FeatureCardTwentyOne
       useInvertedBackground={false}
       title="Our Work"
-      description="Descubre lo que nos hace únicos en el corazón de la ciudad."
+      description="3 examples of our websites."
       accordionItems={[
         { id: "f1", title: "Café de Especialidad", content: "Seleccionamos granos de las mejores regiones, tostados localmente para resaltar notas únicas." },
         { id: "f2", title: "Brunch Gourmet", content: "Platos que combinan técnica clásica con productos frescos de temporada." },
