@@ -46,7 +46,7 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       background={{
         variant: "rotated-rays-animated"}}
-      title="Simple Websites for Small Businesses\n\n"
+      title="Simple Websites for Small Businesses"
       description="I build clean, simple website that help small businesses get more customers.\n"
       buttons={[
         {
