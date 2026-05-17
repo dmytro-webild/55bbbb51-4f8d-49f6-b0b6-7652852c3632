@@ -55,10 +55,6 @@ export default function LandingPage() {
       carouselItems={[
         { id: "1", imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=1", imageAlt: "Atmósfera Luun" },
         { id: "2", imageSrc: "https://img.b2bpic.net/free-photo/female-hand-typing-keyboard-laptop_1150-15742.jpg?id=5432778", imageAlt: "Pastelería artesanal" },
-        { id: "3", imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=2", imageAlt: "Diseño instagrameable" },
-        { id: "4", imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=3", imageAlt: "Servicio exclusivo" },
-        { id: "5", imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=4", imageAlt: "Atmósfera Luun" },
-        { id: "6", imageSrc: "https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=5", imageAlt: "Atmósfera Luun" },
       ]}
     />
   </div>
