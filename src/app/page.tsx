@@ -38,7 +38,7 @@ export default function LandingPage() {
         {
           name: "Reservar",          id: "contact"},
       ]}
-      brandName="Luun"
+      brandName="Simple Websites"
     />
   </div>
 
