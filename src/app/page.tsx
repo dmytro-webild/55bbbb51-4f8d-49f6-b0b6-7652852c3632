@@ -10,6 +10,7 @@ import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import ContactText from '@/components/sections/contact/ContactText';
 
 export default function LandingPage() {
   return (
@@ -122,6 +123,14 @@ export default function LandingPage() {
       title="Pricing "
       description="Websites starting at $300-$500"
       faqsAnimation="slide-up"
+    />
+  </div>
+
+  <div id="contact-btn-section" data-section="contact-btn-section">
+      <ContactText
+      text="Ready to get started?"
+      background={{ variant: "plain" }}
+      buttons={[{ text: "Contact us" }]}
     />
   </div>
 
