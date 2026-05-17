@@ -127,7 +127,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={false}
-      title="Start your project"
+      title="Get your website "
       description="Tell us about your business goals and we'll help you get online."
       inputs={[
         { name: "name", type: "text", placeholder: "Name", required: true },
