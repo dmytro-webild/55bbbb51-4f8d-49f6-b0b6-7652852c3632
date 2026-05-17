@@ -104,7 +104,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       names={[
         "Tech Weekly",        "Local Innovators",        "Small Biz Alliance",        "Digital Growth",        "Startup News"]}
-      title="Trusted by growing brands"
+      title="Why You Choose Us"
       description="Companies and platforms that trust our development expertise."
     />
   </div>
