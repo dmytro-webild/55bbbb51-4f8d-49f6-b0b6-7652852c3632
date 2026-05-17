@@ -74,7 +74,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Our Work"
       description="3 examples of our websites."
-      buttons={[{ text: "View Demo", onClick: () => {} }, { text: "View Demo", onClick: () => {} }, { text: "View Demo", onClick: () => {} }]}
+      buttons={[]}
       accordionItems={[
         { id: "f1", title: "Barbershop Website", content: "Modern design for a local barbershop with services, location, and contact. " },
         { id: "f2", title: "Restaurant Website", content: "Clean layout with menu, photos, and easy contact options. " },
