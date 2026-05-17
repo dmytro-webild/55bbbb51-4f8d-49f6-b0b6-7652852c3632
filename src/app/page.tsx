@@ -53,7 +53,9 @@ export default function LandingPage() {
       background={{
         variant: "rotated-rays-animated",
       }}
-      title="El brunch más elegante de Mérida"
+      title="Simple Websites for Small Businesses
+
+"
       description="Croissants artesanales, café de especialidad y experiencias memorables en el corazón de Paseo Montejo. Cada detalle está pensado para que disfrutes lento."
       buttons={[
         {
