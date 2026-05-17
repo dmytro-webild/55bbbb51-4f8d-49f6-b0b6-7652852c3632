@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
@@ -31,7 +30,6 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         { name: "Our Work", id: "about" },
-        { name: "Contact", id: "contact" },
       ]}
       brandName="Simple Websites"
     />
@@ -123,22 +121,6 @@ export default function LandingPage() {
       title="Pricing "
       description="Websites starting at $300-$500"
       faqsAnimation="slide-up"
-    />
-  </div>
-
-  <div id="contact" data-section="contact">
-      <ContactSplitForm
-      useInvertedBackground={false}
-      title="Get your website "
-      description="If you want a simple website for your business, contact us today."
-      imageSrc="https://images.unsplash.com/photo-1573164713714-d75e9003f443?q=80&w=800&h=600"
-      imageAlt="Contact Us Tech"
-      inputs={[
-        { name: "name", type: "text", placeholder: "Name", required: true },
-        { name: "email", type: "email", placeholder: "Email", required: true },
-        { name: "project", type: "text", placeholder: "Project type", required: true },
-      ]}
-      textarea={{ name: "message", placeholder: "Tell us about your requirements...", rows: 3, required: false }}
     />
   </div>
 
