@@ -80,7 +80,7 @@ export default function LandingPage() {
         { id: "f3", title: "Cleaning Service Website", content: "Professional design focused on getting more leads and calls." },
       ]}
       mediaAnimation="slide-up"
-      imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&h=600"
+      imageSrc="https://img.b2bpic.net/free-photo/businessman-using-mobile-phone_107420-74340.jpg?id=8897942"
       imageAlt="Professional web design services"
     />
   </div>
