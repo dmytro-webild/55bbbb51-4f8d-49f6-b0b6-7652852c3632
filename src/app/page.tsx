@@ -119,7 +119,7 @@ export default function LandingPage() {
         { id: "q3", title: "Is maintenance included?", content: "No we online offer the website " },
       ]}
       title="Pricing "
-      description="Everything you need to know about working with our team."
+      description="Websites starting at $300-$500"
       faqsAnimation="slide-up"
     />
   </div>
