@@ -128,7 +128,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={false}
       title="Get your website "
-      description="Tell us about your business goals and we'll help you get online."
+      description="If you want a simple website for your business, contact us today."
       inputs={[
         { name: "name", type: "text", placeholder: "Name", required: true },
         { name: "email", type: "email", placeholder: "Email", required: true },
