@@ -70,7 +70,7 @@ export default function LandingPage() {
   <div id="features" data-section="features">
       <FeatureCardTwentyOne
       useInvertedBackground={false}
-      title="Nuestra esencia artesanal"
+      title="Our Work"
       description="Descubre lo que nos hace únicos en el corazón de la ciudad."
       accordionItems={[
         { id: "f1", title: "Café de Especialidad", content: "Seleccionamos granos de las mejores regiones, tostados localmente para resaltar notas únicas." },
