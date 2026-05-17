@@ -118,7 +118,7 @@ export default function LandingPage() {
         { id: "q2", title: "How long does a build take?", content: "Typically, we deliver high-quality, professional sites within 2 to 4 weeks depending on scope." },
         { id: "q3", title: "Is maintenance included?", content: "No we online offer the website " },
       ]}
-      title="Frequently asked questions"
+      title="Pricing "
       description="Everything you need to know about working with our team."
       faqsAnimation="slide-up"
     />
