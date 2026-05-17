@@ -9,7 +9,6 @@ import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 
@@ -32,7 +31,6 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         { name: "Our Work", id: "about" },
-        { name: "About Us", id: "menu" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="Simple Websites"
@@ -45,11 +43,11 @@ export default function LandingPage() {
       title="Simple Websites for Small Businesses"
       description="I build clean, simple website that help small businesses get more customers.\n"
       buttons={[
-        { text: "View Our Work", href: "#menu" },
+        { text: "View Our Work", href: "#features" },
       ]}
       carouselItems={[
-        { id: "1", imageAlt: "Atmósfera Luun" },
-        { id: "2", imageAlt: "Pastelería artesanal" },
+        { id: "1", imageAlt: "Computer hardware", imageSrc: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&h=600" },
+        { id: "2", imageAlt: "Technology setup", imageSrc: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&h=600" },
         { id: "3", imageAlt: "Empty item 3" },
         { id: "4", imageAlt: "Empty item 4" },
         { id: "5", imageAlt: "Empty item 5" },
@@ -63,7 +61,6 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="About Our Team"
       description=" Hi, we create simple and professional websites for  small businesses in the USA. \n\n Our goal is to help local businesses get more clients with a clean online presence."
-      imageAlt="Interior de Luun Brunch & Coffee"
     />
   </div>
 
@@ -73,31 +70,12 @@ export default function LandingPage() {
       title="Our Work"
       description="3 examples of our websites."
       accordionItems={[
-        { id: "f1", title: "Café de Especialidad", content: "Seleccionamos granos de las mejores regiones, tostados localmente para resaltar notas únicas." },
-        { id: "f2", title: "Brunch Gourmet", content: "Platos que combinan técnica clásica con productos frescos de temporada." },
-        { id: "f3", title: "Diseño Estético", content: "Cada rincón es un espacio curado para creadores y momentos instagrameables." },
+        { id: "f1", title: "Custom Development", content: "We build fully responsive websites tailored to your unique business needs." },
+        { id: "f2", title: "Performance Focused", content: "Optimized loading speeds and modern infrastructure for the best user experience." },
+        { id: "f3", title: "Professional Design", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
       ]}
       mediaAnimation="slide-up"
       videoSrc="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-in-a-cup-4017-large.mp4"
-    />
-  </div>
-
-  <div id="menu" data-section="menu">
-      <ProductCardTwo
-      animationType="slide-up"
-      textboxLayout="split-description"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
-      products={[
-        { id: "p1", brand: "Luun Signature", name: "Eggs Benedict", price: "$185 MXN", rating: 5, reviewCount: "120", imageSrc: "" },
-        { id: "p2", brand: "Pastelería", name: "Croissant Francés", price: "$75 MXN", rating: 5, reviewCount: "85", imageSrc: "" },
-        { id: "p3", brand: "Café", name: "Flat White Especial", price: "$65 MXN", rating: 5, reviewCount: "200", imageSrc: "" },
-        { id: "p4", brand: "Luun Signature", name: "Avocado Toast", price: "$160 MXN", rating: 4, reviewCount: "95", imageSrc: "" },
-        { id: "p5", brand: "Brunch", name: "Yogurt Bowl", price: "$140 MXN", rating: 5, reviewCount: "70", imageSrc: "" },
-        { id: "p6", brand: "Luun Signature", name: "Breakfast Sándwich", price: "$175 MXN", rating: 5, reviewCount: "110", imageSrc: "" },
-      ]}
-      title="Why Choose Us"
-      description="Una cuidada carta de especialidades que celebran los ingredientes."
     />
   </div>
 
@@ -107,15 +85,15 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sofía M.", handle: "@sofia.lifestyle", testimonial: "El lugar más estético de Mérida. Los huevos benedictinos son otro nivel.", rating: 5 },
-        { id: "2", name: "Carlos E.", handle: "@carlos.viajero", testimonial: "Un oasis en Paseo Montejo. El café de especialidad es impecable.", rating: 5 },
-        { id: "3", name: "Lucía P.", handle: "@lucia.gastronomia", testimonial: "Cada rincón es perfecto para fotos. El servicio es de primera.", rating: 5 },
-        { id: "4", name: "Diego R.", handle: "@diego.foodie", testimonial: "La calidad de los ingredientes se nota en cada bocado. Imprescindible.", rating: 5 },
-        { id: "5", name: "Elena T.", handle: "@elena.creativa", testimonial: "Mi lugar favorito para empezar el día. Creatividad y buen brunch.", rating: 5 },
+        { id: "1", name: "Sofía M.", handle: "@sofia.lifestyle", testimonial: "The website build process was seamless and incredibly professional.", rating: 5 },
+        { id: "2", name: "Carlos E.", handle: "@carlos.viajero", testimonial: "Our new online presence has significantly increased our customer reach.", rating: 5 },
+        { id: "3", name: "Lucía P.", handle: "@lucia.gastronomia", testimonial: "Every detail was carefully thought out to match our brand identity.", rating: 5 },
+        { id: "4", name: "Diego R.", handle: "@diego.foodie", testimonial: "Highly recommended for any small business looking to modernize their site.", rating: 5 },
+        { id: "5", name: "Elena T.", handle: "@elena.creativa", testimonial: "Excellent service and quick turnaround times. Simply the best.", rating: 5 },
       ]}
       showRating={true}
-      title="Lo que dicen de nosotros"
-      description="Experiencias compartidas por nuestra comunidad de locales y viajeros."
+      title="What our clients say"
+      description="Experiences shared by local business owners we've worked with."
     />
   </div>
 
@@ -124,9 +102,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Lifestyle Mag",        "Gastronomy Awards",        "Turismo Mérida",        "Foodie Guide",        "Premium Dining"]}
-      title="Reconocidos por nuestra excelencia"
-      description="Colaboraciones y menciones que avalan nuestra calidad."
+        "Tech Weekly",        "Local Innovators",        "Small Biz Alliance",        "Digital Growth",        "Startup News"]}
+      title="Trusted by growing brands"
+      description="Companies and platforms that trust our development expertise."
     />
   </div>
 
@@ -135,12 +113,12 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "¿Tienen opciones vegetarianas?", content: "Sí, contamos con una amplia variedad de opciones vegetarianas frescas y balanceadas." },
-        { id: "q2", title: "¿Se necesita reservar?", content: "Recomendamos reservar los fines de semana a través de nuestro sitio web para asegurar tu lugar." },
-        { id: "q3", title: "¿Aceptan mascotas?", content: "Somos un café pet-friendly en nuestra terraza al aire libre." },
+        { id: "q1", title: "Do you support existing sites?", content: "Yes, we can help you refresh or completely rebuild your existing online presence." },
+        { id: "q2", title: "How long does a build take?", content: "Typically, we deliver high-quality, professional sites within 2 to 4 weeks depending on scope." },
+        { id: "q3", title: "Is maintenance included?", content: "We offer flexible maintenance plans to keep your site running smoothly after launch." },
       ]}
-      title="Preguntas frecuentes"
-      description="Todo lo que necesitas saber antes de tu próxima visita."
+      title="Frequently asked questions"
+      description="Everything you need to know about working with our team."
       faqsAnimation="slide-up"
     />
   </div>
@@ -148,22 +126,22 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={false}
-      title="Reserva tu momento Luun"
-      description="Déjanos tus datos para asegurar tu mesa en el brunch más solicitado de Mérida."
+      title="Start your project"
+      description="Tell us about your business goals and we'll help you get online."
       inputs={[
-        { name: "name", type: "text", placeholder: "Nombre completo", required: true },
-        { name: "email", type: "email", placeholder: "Correo electrónico", required: true },
-        { name: "date", type: "date", placeholder: "Fecha de reserva", required: true },
+        { name: "name", type: "text", placeholder: "Name", required: true },
+        { name: "email", type: "email", placeholder: "Email", required: true },
+        { name: "project", type: "text", placeholder: "Project type", required: true },
       ]}
-      textarea={{ name: "message", placeholder: "Detalles adicionales o alergias...", rows: 3, required: false }}
+      textarea={{ name: "message", placeholder: "Tell us about your requirements...", rows: 3, required: false }}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoText="LUUN"
+      logoText="SIMPLE WEBSITES"
       leftLink={{ text: "Instagram", href: "https://instagram.com" }}
-      rightLink={{ text: "Política de Privacidad", href: "#" }}
+      rightLink={{ text: "Privacy Policy", href: "#" }}
     />
   </div>
       </ReactLenis>
