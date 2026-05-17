@@ -77,7 +77,7 @@ export default function LandingPage() {
       accordionItems={[
         { id: "f1", title: "Barbershop Website", content: "We build fully responsive websites tailored to your unique business needs." },
         { id: "f2", title: "Restaurant Website", content: "Optimized loading speeds and modern infrastructure for the best user experience." },
-        { id: "f3", title: "Professional Design", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
+        { id: "f3", title: "Cleaning Service Website", content: "Each site is designed with conversion in mind, ensuring your clients find what they need easily." },
       ]}
       mediaAnimation="slide-up"
       imageSrc="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&h=600"
