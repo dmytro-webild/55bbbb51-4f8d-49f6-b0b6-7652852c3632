@@ -62,7 +62,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MediaAbout
       useInvertedBackground={false}
-      title="Más que un desayuno, un destino lifestyle"
+      title="About Our Team"
       description="Luun nace de la pasión por los detalles y la excelencia. Fusionamos ingredientes locales de alta gama con técnicas artesanales en un entorno diseñado para la conexión y la creatividad."
       imageSrc="https://img.b2bpic.net/free-vector/blue-technology-digital-landscape-futuristic-background_1017-24919.jpg?id=7887838&_wi=6"
       imageAlt="Interior de Luun Brunch & Coffee"
