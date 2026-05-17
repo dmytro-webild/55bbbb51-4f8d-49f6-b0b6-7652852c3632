@@ -114,7 +114,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "How would it take to have my website ready?", content: "Yes, we can help you refresh or completely rebuild your existing online presence." },
+        { id: "q1", title: "How would it take to have my website ready?", content: " 1 week " },
         { id: "q2", title: "How long does a build take?", content: "Typically, we deliver high-quality, professional sites within 2 to 4 weeks depending on scope." },
         { id: "q3", title: "Is maintenance included?", content: "No we online offer the website " },
       ]}
